@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 300px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header img {
+    height: 50px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}

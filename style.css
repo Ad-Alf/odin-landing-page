@@ -60,6 +60,7 @@ body {
 .itemblock {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .item {
@@ -71,6 +72,24 @@ body {
 .item img {
     height: 200px;
     border-radius: 15px;
+}
+
+.quote { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 150px 400px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
 }
 
 button {

@@ -5,7 +5,8 @@ body {
 }
 
 .header, 
-.hero {
+.hero,
+.footer {
     background: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -79,7 +80,7 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 150px 400px;
+    padding: 50px 400px;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
@@ -90,6 +91,29 @@ body {
     font-size: 28px;
     font-weight: bold;
     text-align: right;
+}
+
+.call {
+    background-color: #3882F6;
+    margin: 50px 300px;
+    padding: 50px 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.top {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.call button {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #F9FAF8
+    
 }
 
 button {

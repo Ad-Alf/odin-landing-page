@@ -11,11 +11,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #E5E7EB;
 }
 
 .header {
     padding: 16px 300px;
-    color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
 }
 
 .header img {
